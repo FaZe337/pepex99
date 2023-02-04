@@ -1,6 +1,6 @@
-    //season 15 LTM/Heirloom Event offset update 01/23/23
+    //season 15 LTM/Heirloom Event offset update 03/02/23
     //ToggleBot
-     
+    //https://pastebin.com/raw/PwJwVjgP
     #pragma once
     namespace offsets
     {
@@ -15,7 +15,7 @@
         const long ENTITY_LIST = 0x1b2e708;  // [Miscellaneous] -> cl_entitylist
         // entity
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        const long LOCAL_ORIGIN = 0x0004; // [DataMap.CBaseViewModel]    -> m_localOrigin
+        const long LOCAL_ORIGIN = 0x0158; // [DataMap.CBaseViewModel]    -> m_localOrigin
         // player
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         const long GLOW_ENABLE = (0x03c0 + 0x8);        // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x8
